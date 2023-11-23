@@ -1,19 +1,6 @@
-const users = [
-    {
-        id: 1,
-        name: 'Chuck Norris',
-    },
-    {
-        id: 2,
-        name: 'John Doe',
-    },
-]
-
-const hello = (name) => `Hello ${name}`
-const message = hello('John Doe')
-
-const user = users.find((user) => {
-    return user.id === 1
-})
-
-console.log('finished')
+<script>
+    var number1 = window.prompt("กรุณากรอกตัวเลขที่ 1 ");
+    var number2 = window.prompt("กรุณากรอกตัวเลขที่ 2 ");
+    var result = parseInt(number1) + parseInt(number2);
+    alert(number1+" + "+number2+" = "+result);
+</script>
